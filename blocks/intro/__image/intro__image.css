@@ -1,0 +1,10 @@
+.intro__image {
+    width: 420px;
+    height: 420px;
+    object-fit: cover;
+    flex-basis: auto;
+    margin: 0 auto;
+margin-right: 80px;
+margin-bottom: 150px;
+margin-top: 100px;
+}

@@ -1,0 +1,8 @@
+.intro__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 80px;
+    width: 50%;
+}
