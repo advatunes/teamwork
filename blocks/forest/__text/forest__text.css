@@ -1,0 +1,11 @@
+.forest__text {
+  max-width: 430px;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.forest__text:nth-last-child(1) {
+  margin-bottom: 0;
+}
