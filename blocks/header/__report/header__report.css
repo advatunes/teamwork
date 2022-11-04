@@ -1,6 +1,7 @@
 .header__report{
     border: none;
     background-color: #fff;
+    padding: 0;
     font-weight: 700;
     font-size: 14px;
     line-height: 20px;

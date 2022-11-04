@@ -5,3 +5,17 @@
     letter-spacing: 1px;
     margin: 0;
 }
+
+
+@media screen and (max-width: 984px) {
+    .title {
+        font-size: 28px;
+    }
+  }
+
+  @media screen and (max-width: 420px) {
+    .title {
+        font-size: 22px;
+        line-height: 32px;
+    }
+  }
