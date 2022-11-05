@@ -1,4 +1,17 @@
 .mountains__content {
-    padding-left: 85px;
-    width: 50%;
+  padding-left: 85px;
+  padding-right: 45px;
+  padding-bottom: 80px;
+}
+
+@media screen and (max-width: 984px) {
+  .mountains__content {
+    padding-left: 45px;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .mountains__content {
+    padding: 0 25px 32px;
+  }
 }

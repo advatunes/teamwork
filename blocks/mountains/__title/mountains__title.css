@@ -1,4 +1,25 @@
 .mountains__title {
-    padding-top: 70px;
-    padding-bottom: 250px;
+  padding-top: 70px;
+  padding-bottom: 250px;
+}
+
+@media screen and (max-width: 984px) {
+  .mountains__title {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 725px) {
+  .mountains__title {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .mountains__title {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
 }

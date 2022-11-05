@@ -1,4 +1,25 @@
 .forest__title {
-    padding-top: 70px;
-    padding-bottom: 220px;
+  padding-top: 70px;
+  padding-bottom: 220px;
+}
+
+@media screen and (max-width: 984px) {
+  .forest__title {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 725px) {
+  .forest__title {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .forest__title {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
 }

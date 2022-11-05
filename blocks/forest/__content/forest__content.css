@@ -1,4 +1,17 @@
 .forest__content {
     padding-left: 85px;
-    width: 50%;
+    padding-bottom: 80px;
+    padding-right: 45px;
 }
+
+@media screen and (max-width: 984px) {
+    .forest__content  {
+        padding-left: 45px;
+    }
+  }
+
+  @media screen and (max-width: 984px) {
+    .forest__content  {
+        padding: 0 25px 32px;
+    }
+  }

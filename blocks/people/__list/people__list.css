@@ -1,8 +1,30 @@
 .people__list {
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    padding-bottom: 145px;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 145px;
+}
+
+@media screen and (max-width: 984px) {
+    .people__list {
+      padding-bottom: 100px;
+    }
+  }
+
+
+@media screen and (max-width: 725px) {
+  .people__list {
+    flex-wrap: wrap;
+    gap: 60px;
+    padding-bottom: 80px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .people__list {
+    padding-bottom: 50px;
+  }
 }

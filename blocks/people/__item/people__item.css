@@ -1,4 +1,10 @@
 .people__item {
-    max-width: 260px;
-    margin: 0;
+  max-width: 260px;
+  margin: 0;
+}
+
+@media screen and (max-width: 725px) {
+  .people__item {
+    max-width: 350px;
+  }
 }

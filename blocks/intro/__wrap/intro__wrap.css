@@ -8,6 +8,12 @@
     padding-left: 30px;
 }
 
+@media screen and (max-width: 984px) {
+  .intro__wrap {
+    margin-bottom: 100px;
+  }
+}
+
 @media screen and (max-width: 725px) {
     .intro__wrap {
       margin-top: 40px;

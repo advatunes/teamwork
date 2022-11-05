@@ -1,3 +1,15 @@
 .position__people {
-    margin: 0 80px;
+  margin: 0 80px;
+}
+
+@media screen and (max-width: 984px) {
+  .position__people {
+    margin: 0 40px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .position__people {
+    margin: 0 20px;
+  }
 }

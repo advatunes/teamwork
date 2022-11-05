@@ -2,3 +2,15 @@
     padding-top: 150px;
     padding-bottom: 30px;
 }
+
+@media screen and (max-width: 984px) {
+    .people__title {
+      padding-top: 50px;
+    }
+  }
+
+  @media screen and (max-width: 420px) {
+    .people__title {
+        padding-bottom: 20px;
+    }
+  }
